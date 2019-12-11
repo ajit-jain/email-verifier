@@ -1,8 +1,8 @@
 {
-  "name": "email_verifier",
+  "name": "email-verifier",
   "version": "0.1.0",
   "description": "",
-  "main": "./lib/email-verifier.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -12,7 +12,13 @@
   "dependencies": {
     "dnscache": "^1.0.1"
   },
-  "engines": {
-    "node": ">=12.9.1"
-  }
+  "keywords": [
+    "email-validator",
+    "email-verifier",
+    "email verifier",
+    "email validator",
+    "email existence",
+    "node",
+    "npm"
+  ]
 }
