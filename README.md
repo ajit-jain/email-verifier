@@ -17,6 +17,7 @@ It exposes two apis:-
 2. Verify Email
 
 ### Validate Format 
+This Api checks the format for the email.
 ```
     const email_verifier = require('email-verifier-node');
     console.log(email_verifier.validate_email('random_email@gmail.com'));
@@ -44,11 +45,11 @@ This Api is promise based so to obtain result you have to use then/catch or asyn
 ```
 Result format is like:- 
 
-**format** : Returns true if email format is valid otherwise false.
-**is_verified** : Returns true if email is verified and able to receive emails otherwise false.
-**accept_all** : Returns true if all the mx_records for the domain able to receive emails otherwise false.
-**message** : Returns string stating the resultant message for the call.
-**errors** : Contains the stack trace of errors in string while querying for email verification.
+- **format** : Returns true if email format is valid otherwise false.
+- **is_verified** : Returns true if email is verified and able to receive emails otherwise false.
+- **accept_all** : Returns true if all the mx_records for the domain able to receive emails otherwise false.
+- **message** : Returns string stating the resultant message for the call.
+- **errors** : Contains the stack trace of errors in string while querying for email verification.
 
 
 ## Contributing
