@@ -20,5 +20,9 @@
     "email existence",
     "node",
     "npm"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajit-jain/email-verifier"
+  }
 }
